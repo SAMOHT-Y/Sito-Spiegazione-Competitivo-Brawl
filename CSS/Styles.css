@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Titan+One&display=swap');
+
+.grtext {
+    font-size: 70px;
+    color: black;
+    font-weight: bold;
+}
+
+#brtext {
+    color: black;
+    font-family: "Black Ops One", system-ui;
+}
+
+.lxf {
+    margin-left: 50px;
+}
+
+.hmblbg{
+    background-image: url('../images/hmble_BG.jpg');
+}
+
+.crbg{
+    background-image: url('../images/Crazy_Raccoon_bg.webp');
+}
+
+.zbg {
+    background-image: url('../images/Z_bg.png');
+}
+
+.futbg {
+    background-image: url('../images/fut_bg.png');
+}
+
+.hbg {
+    background-image: url('../images/Heretics_bg.png');
+}
+
+.navibg {
+    background-image: url('../images/Navi_bg.png');
+}
+
+.trbg {
+    background-image: url('../images/Tribe_BG.png');
+}
+
+.orbg {
+    background-image: url('../images/OR.jpeg');
+}
+
+.bhabg {
+    background-image: url('../images/Bha.png');
+}
+
+.etbg {
+    background-image: url('../images/Eternal_BG.png');
+}
+
+.bgplayers {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.pbg {
+    background-color: rgba(131, 202, 107, 0.303)
+}
+
+.pbg2 {
+    background-color: rgba(208, 132, 65, 0.303);
+}
+
+.resptext {
+    font-size: 3rem;
+}
+
+resptext2 {
+    font-size: 2rem;
+}
+
+
+.modnom {
+    font-family: "Titan One", sans-serif;
+}
+
+.arraf {
+    font-size: 2rem;
+    color: blueviolet;
+}
+
+.ko {
+    font-size: 2rem;
+    color: orange;
+}
+
+.rap {
+    font-size: 2rem;
+    color: gray;
+}
+
+.hotz {
+    font-size: 2rem;
+    color: red;
+}
+
+.fb {
+    font-size: 2rem;
+    color: white;
+}
+
+@media screen and (max-width:575px) {
+    .grtext {
+        font-size: 30px !important; 
+    }
+}
+
+@media (min-width: 768px) {
+  .arraf {
+    font-size: 6rem; 
+  }
+
+  .ko {
+    font-size: 6rem;
+  }
+
+    .rap {
+        font-size: 6rem;
+    }
+
+    .hotz {
+        font-size: 6rem;
+    }
+
+    .fb {
+        font-size: 6rem;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .resptext {
+        font-size: 1rem !important; 
+    }
+
+    .resptext2 {
+        font-size: 0.5rem !important; 
+    }
+}
